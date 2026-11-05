@@ -1,0 +1,32 @@
+{
+ "format": "myradio/station-1",
+ "name": "つくるラジオ",
+ "description": "生成AI・LLM・AIツールの、きのうの気になるニュースを、毎朝 90 秒で。",
+ "tagline": "AI 朝のニュース",
+ "logo": "logo.svg",
+ "url": "https://a53849538.github.io/radio/",
+ "repo": "https://github.com/a53849538/radio",
+ "language": "ja",
+ "languages": [
+  "ja"
+ ],
+ "schedule": {
+  "every": "day",
+  "time": "07:00",
+  "timezone": "Asia/Tokyo"
+ },
+ "episodes": "episodes.json",
+ "character": {
+  "pack": "character/character.json",
+  "thumbnail": "character/base.png",
+  "note": "AIで生成したキャラクターです"
+ },
+ "credits": [
+  "声：VOICEVOX:冥鳴ひまり"
+ ],
+ "audio": {
+  "dir": "audio",
+  "keep_days": 30
+ },
+ "weather": true
+}

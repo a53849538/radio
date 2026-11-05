@@ -1,0 +1,281 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-05",
+ "lang": "ja",
+ "title": "GPT-6 Astra、1週間でデバイスを設計",
+ "opening": [
+  {
+   "say": "おはようございます、つくるラジオです。十一月五日、木曜日。",
+   "show": "おはようございます、つくるラジオです。11月5日、木曜日。"
+  },
+  {
+   "say": "今日が初回の放送です。AIのニュースを三本お届けします。",
+   "show": "今日が初回の放送。AIのニュースを3本お届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "GPT-6 Astra、1週間でデバイスを設計",
+   "points": [
+    "筐体・基板・ファームウェアまで設計",
+    "設計は1週間未満、試作は1か月未満",
+    "製造の制約で複数回の改訂が必要"
+   ],
+   "details": [
+    "Codexと会話できるデバイスを、OpenAIのハードウェアチームがサイドプロジェクトとして開発しました。",
+    "試作品は外部の受託製造企業が少量製造しました。",
+    "社内ベンチマークBenchCAD 2.0では、GPT-6 Astraが0.594、詳細非公開の社内モデルが0.875。"
+   ],
+   "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+   "lines": [
+    {
+     "say": "まずはオープンエーアイです。",
+     "show": "まずはOpenAI。"
+    },
+    {
+     "say": "ジーピーティーシックス・アストラが、コーデックスと会話できるデバイスを、一週間足らずで設計したと発表しました。",
+     "show": "GPT-6 Astraが、Codexと会話できるデバイスを1週間足らずで設計。"
+    },
+    {
+     "say": "筐体から基板、ファームウェアまで、AIが担当しています。",
+     "show": "筐体から基板、ファームウェアまでAIが担当。"
+    },
+    {
+     "say": "ただし、製造の細かい制約までは考えきれず、何度か作り直しが必要でした。",
+     "show": "ただし製造上の制約に対応しきれず、複数回の改訂が必要に。"
+    }
+   ],
+   "link": {
+    "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+    "title": "Accelerating engineering for the physical world",
+    "site": "OpenAI",
+    "description": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/3NAeFNOstkEE0aSxayt8NT/cedb470d8c0bcd7e6a2ca828c1db136c/accelerating-engineering-physical-world-social.png?w=1600&h=900&fit=fill",
+    "icon": null
+   }
+  },
+  {
+   "label": "Anthropic、FlashProveを公開",
+   "points": [
+    "どのモデルの応答かを暗号で証明",
+    "重みを明かさずに検証できる",
+    "研究段階、コードはオープンソース"
+   ],
+   "details": [
+    "zkSNARKという暗号証明を使います。証明は1リクエスト約19MBで、CPUで約20秒で検証できます。",
+    "検証に必要なのは、重みのコミットメント、プロンプト、応答だけです。",
+    "証明器や検証器をApache 2.0で公開。文脈長は1,024トークンまでなどの制限があります。"
+   ],
+   "url": "https://www.anthropic.com/research/provable-inference",
+   "lines": [
+    {
+     "say": "続いて、アンソロピックです。",
+     "show": "続いてAnthropic。"
+    },
+    {
+     "say": "AIの応答が、本当に名乗ったモデルから出たものかを、暗号で証明する仕組み、フラッシュプルーブを公開しました。",
+     "show": "AIの応答が本当にそのモデルから出たかを暗号で証明する「FlashProve」を公開。"
+    },
+    {
+     "say": "モデルの重みを明かさずに、誰でも検証できるのが特徴です。",
+     "show": "モデルの重みを明かさずに、誰でも検証できる。"
+    },
+    {
+     "say": "まだ研究段階で、コードはオープンソースで公開されています。",
+     "show": "まだ研究段階。コードはオープンソースで公開。"
+    }
+   ],
+   "link": {
+    "url": "https://www.anthropic.com/research/provable-inference",
+    "title": "Progress on provable inference for large language models",
+    "site": "Anthropic",
+    "description": "Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference.",
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg",
+    "icon": null
+   }
+  },
+  {
+   "label": "Siri AI、すべての開発者に開放",
+   "points": [
+    "iOS 27.3などのベータで提供",
+    "App Intentsでアプリと連携",
+    "日本語にも対応"
+   ],
+   "details": [
+    "iPadOS・macOS・visionOSの27.3ベータも対象。一般ユーザーへの提供は数か月以内の予定です。",
+    "複数の操作をまとめた「スキル」も教えられます。App Storeへの提出受付は春からの予定。",
+    "英語、フランス語、韓国語、ポルトガル語、スペイン語にも対応しています。"
+   ],
+   "url": "https://developer.apple.com/news/?id=gdk2umrf",
+   "lines": [
+    {
+     "say": "最後はアップルです。",
+     "show": "最後はApple。"
+    },
+    {
+     "say": "新しいシリ、シリエーアイに、どの開発者でも、アプリをつなげられるようになりました。",
+     "show": "新しいSiri「Siri AI」に、どの開発者もアプリをつなげられるように。"
+    },
+    {
+     "say": "アイオーエス二十七てん三などのベータから、アップインテンツを使って連携します。",
+     "show": "iOS 27.3などのベータから、App Intentsで連携。"
+    },
+    {
+     "say": "日本語にも対応していて、一般の人に届くのは、数か月以内の予定です。",
+     "show": "日本語にも対応。一般向けの提供は数か月以内の予定。"
+    }
+   ],
+   "link": {
+    "url": "https://developer.apple.com/news/?id=gdk2umrf",
+    "title": "Siri AI is now open to all developers",
+    "site": "Apple Developer",
+    "description": "Starting today with the iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3 betas, a new Developer Preview enables any developer to integrate their app with Siri AI.",
+    "image": "https://developer.apple.com/news/images/og/siri-ai-dark-og.jpg",
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日の注目は、AIが一週間で、ハードウェアを設計した、というニュースでした。",
+   "show": "今日の注目は、AIが1週間でハードウェアを設計。"
+  },
+  {
+   "say": "以上、つくるラジオでした。また明日。",
+   "show": "以上、つくるラジオでした。また明日。"
+  }
+ ],
+ "highlight": 0,
+ "seconds": 78.71,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.411,
+   "show": "おはようございます、つくるラジオです。11月5日、木曜日。",
+   "part": 0
+  },
+  {
+   "start": 5.661,
+   "end": 9.821,
+   "show": "今日が初回の放送。AIのニュースを3本お届けします。",
+   "part": 0
+  },
+  {
+   "start": 10.871,
+   "end": 12.321,
+   "show": "まずはOpenAI。",
+   "part": 1
+  },
+  {
+   "start": 12.571,
+   "end": 19.558,
+   "show": "GPT-6 Astraが、Codexと会話できるデバイスを1週間足らずで設計。",
+   "part": 1
+  },
+  {
+   "start": 19.808,
+   "end": 23.883,
+   "show": "筐体から基板、ファームウェアまでAIが担当。",
+   "part": 1
+  },
+  {
+   "start": 24.133,
+   "end": 30.042,
+   "show": "ただし製造上の制約に対応しきれず、複数回の改訂が必要に。",
+   "part": 1
+  },
+  {
+   "start": 31.092,
+   "end": 32.991,
+   "show": "続いてAnthropic。",
+   "part": 2
+  },
+  {
+   "start": 33.241,
+   "end": 40.825,
+   "show": "AIの応答が本当にそのモデルから出たかを暗号で証明する「FlashProve」を公開。",
+   "part": 2
+  },
+  {
+   "start": 41.075,
+   "end": 45.128,
+   "show": "モデルの重みを明かさずに、誰でも検証できる。",
+   "part": 2
+  },
+  {
+   "start": 45.378,
+   "end": 49.346,
+   "show": "まだ研究段階。コードはオープンソースで公開。",
+   "part": 2
+  },
+  {
+   "start": 50.396,
+   "end": 51.591,
+   "show": "最後はApple。",
+   "part": 3
+  },
+  {
+   "start": 51.841,
+   "end": 57.579,
+   "show": "新しいSiri「Siri AI」に、どの開発者もアプリをつなげられるように。",
+   "part": 3
+  },
+  {
+   "start": 57.829,
+   "end": 62.651,
+   "show": "iOS 27.3などのベータから、App Intentsで連携。",
+   "part": 3
+  },
+  {
+   "start": 62.901,
+   "end": 68.117,
+   "show": "日本語にも対応。一般向けの提供は数か月以内の予定。",
+   "part": 3
+  },
+  {
+   "start": 69.167,
+   "end": 74.895,
+   "show": "今日の注目は、AIが1週間でハードウェアを設計。",
+   "part": 4
+  },
+  {
+   "start": 75.145,
+   "end": 77.907,
+   "show": "以上、つくるラジオでした。また明日。",
+   "part": 4
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 10.871
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 10.871,
+   "end": 31.092
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 31.092,
+   "end": 50.396
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 50.396,
+   "end": 69.167
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 69.167,
+   "end": 77.907
+  }
+ ],
+ "made_at": "2026-11-05T23:23:19"
+}
