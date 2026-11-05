@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>ものラジオ</title>
+<title>つくるラジオ</title>
 <link rel="icon" id="favicon" href="data:,">
 <script>if (/[?&]embed\b/.test(location.search)) document.documentElement.classList.add("embed")</script>
 <style>
@@ -428,7 +428,7 @@ html.phone #share span{display:none}
 <main>
   <div id="frame">
     <div id="stage">
-      <div class="brand"><i class="logo" id="slogo" hidden></i><b id="sname">ものラジオ</b><div class="epsel" id="epsel"><button class="epnav" id="epPrev" aria-label="前の回" title="前の回" hidden></button><button id="sdate" aria-haspopup="listbox" aria-expanded="false" aria-controls="eplist"><span></span><i></i></button><button class="epnav" id="epNext" aria-label="次の回" title="次の回" hidden></button><div id="eplist" role="listbox" aria-label="放送日"></div></div><div class="langsw" id="langsw" hidden></div></div>
+      <div class="brand"><i class="logo" id="slogo" hidden></i><b id="sname">つくるラジオ</b><div class="epsel" id="epsel"><button class="epnav" id="epPrev" aria-label="前の回" title="前の回" hidden></button><button id="sdate" aria-haspopup="listbox" aria-expanded="false" aria-controls="eplist"><span></span><i></i></button><button class="epnav" id="epNext" aria-label="次の回" title="次の回" hidden></button><div id="eplist" role="listbox" aria-label="放送日"></div></div><div class="langsw" id="langsw" hidden></div></div>
       <div class="onair"><i></i>ON AIR</div>
       <nav id="toc" aria-label="目次"></nav>
       <div id="panel"></div>
@@ -1059,7 +1059,7 @@ $("sname").addEventListener("click", e => {
 });
 // the station describes itself in station.json (name, what it broadcasts, logo, credits): this page and, later,
 // a channel guide read it
-let STATION = { name: "ものラジオ", credits: [] };
+let STATION = { name: "つくるラジオ", credits: [] };
 // a station field in the current language: station.json may give "i18n": {"en": {"name", "tagline", "credits", ...}}
 const st = k => STATION.i18n?.[LANG]?.[k] ?? STATION[k];
 function setLang(l) {

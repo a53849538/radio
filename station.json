@@ -1,19 +1,18 @@
 {
  "format": "myradio/station-1",
- "name": "ものラジオ",
- "description": "電子工作・3Dプリンター・AI の、きのうの気になるニュースを、毎朝 90 秒で。",
- "tagline": "AI・3D 朝のニュース",
+ "name": "つくるラジオ",
+ "description": "AI と、ゲーム・3D・動画・Web づくりの、きのうの気になるニュースを、毎朝 90 秒で。",
+ "tagline": "AI × つくる 朝のニュース",
  "logo": "logo.svg",
- "url": "https://monoradio102.github.io/myradio/",
- "repo": "https://github.com/monoradio102/myradio",
+ "url": "https://a53849538.github.io/radio/",
+ "repo": "https://github.com/a53849538/radio",
  "language": "ja",
  "languages": [
-  "ja",
-  "en"
+  "ja"
  ],
  "schedule": {
   "every": "day",
-  "time": "06:10",
+  "time": "07:00",
   "timezone": "Asia/Tokyo"
  },
  "episodes": "episodes.json",
@@ -23,21 +22,11 @@
   "note": "AIで生成したキャラクターです"
  },
  "credits": [
-  "声：COEIROINK:リリンちゃん"
+  "声：VOICEVOX:冥鳴ひまり"
  ],
  "audio": {
   "dir": "audio",
   "keep_days": 30
  },
- "weather": true,
- "i18n": {
-  "en": {
-   "name": "Mono Radio",
-   "tagline": "Morning news on AI and 3D",
-   "description": "The news worth knowing in electronics, 3D printing and AI, every morning in 90 seconds.",
-   "credits": [
-    "Voice: Kokoro (af_heart)"
-   ]
-  }
- }
+ "weather": true
 }

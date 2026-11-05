@@ -5,6 +5,7 @@
 # 共有カード（share/）も作る：Pillow のある python を SHARE_PYTHON に、日本語の入ったフォントを SHARE_FONT に（tools/share.py）
 set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
+python3() { if command python3 -c "" 2>/dev/null; then command python3 "$@"; else command python "$@"; fi; }   # Windows: python3 may be only the Store's stub
 read -r DIR KEEP < <(python3 -c 'import json; a = json.load(open("station.json")).get("audio", {}); print(a.get("dir", "audio"), a.get("keep_days", 30))')
 CUT=$(python3 -c "import datetime; print((datetime.date.today() - datetime.timedelta(days=$KEEP)).isoformat())")
 REMOTE=$(git remote get-url origin)
