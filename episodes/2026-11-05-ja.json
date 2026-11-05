@@ -2,139 +2,143 @@
  "format": "monoradio/news-1",
  "date": "2026-11-05",
  "lang": "ja",
- "title": "Steam新作のほぼ半数がAI使用を開示",
+ "title": "GPT-6 Astra、1週間でデバイスを設計",
  "opening": [
   {
    "say": "おはようございます、つくるラジオです。十一月五日、木曜日。",
    "show": "おはようございます、つくるラジオです。11月5日、木曜日。"
   },
   {
-   "say": "今日が初回の放送です。ゲームとAIのニュースを三本お届けします。",
-   "show": "今日が初回の放送。ゲームとAIのニュースを3本お届けします。"
+   "say": "今日が初回の放送です。AIのニュースを三本お届けします。",
+   "show": "今日が初回の放送。AIのニュースを3本お届けします。"
   }
  ],
  "news": [
   {
-   "label": "Steam新作のAI開示がほぼ半数に",
+   "label": "GPT-6 Astra、1週間でデバイスを設計",
    "points": [
-    "10月の新作の49.9%がAI使用を開示",
-    "用途の最多はアートワーク（63%）",
-    "小規模な作品ほど開示率が高い"
+    "筐体・基板・ファームウェアまで設計",
+    "設計は1週間未満、試作は1か月未満",
+    "製造の制約で複数回の改訂が必要"
    ],
    "details": [
-    "Redditユーザーが2024年1月以降の6万本超の公開データを分析。2024年1月の開示率は1.7%で、2026年10月はこのデータで月別最高です。",
-    "テキストと翻訳30%、ストアページ26%、音楽21%、コード16%と続きます。",
-    "2026年作品のうち、レビュー10件未満は47%、1,000件以上は14%が開示。開示は自己申告なので、申告していない使用は含まれません。"
+    "Codexと会話できるデバイスを、OpenAIのハードウェアチームがサイドプロジェクトとして開発しました。",
+    "試作品は外部の受託製造企業が少量製造しました。",
+    "社内ベンチマークBenchCAD 2.0では、GPT-6 Astraが0.594、詳細非公開の社内モデルが0.875。"
    ],
-   "url": "https://dexerto.com/gaming/almost-half-of-all-new-steam-games-use-ai-now-3423933",
+   "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
    "lines": [
     {
-     "say": "まずはスチームの話題です。",
-     "show": "まずはSteamの話題です。"
+     "say": "まずはオープンエーアイです。",
+     "show": "まずはOpenAI。"
     },
     {
-     "say": "十月にスチームで出た新作のうち、49.9パーセントが、生成AIの使用を開示していました。",
-     "show": "10月のSteam新作の49.9%が、生成AIの使用を開示。"
+     "say": "ジーピーティーシックス・アストラが、コーデックスと会話できるデバイスを、一週間足らずで設計したと発表しました。",
+     "show": "GPT-6 Astraが、Codexと会話できるデバイスを1週間足らずで設計。"
     },
     {
-     "say": "レディットのユーザーが、六万本以上のゲームの公開データを分析した結果です。",
-     "show": "Redditユーザーが、6万本超の公開データを分析。"
+     "say": "筐体から基板、ファームウェアまで、AIが担当しています。",
+     "show": "筐体から基板、ファームウェアまでAIが担当。"
     },
     {
-     "say": "用途で一番多いのはアートワークで、レビューの少ない小さな作品ほど、開示の割合が高くなっています。",
-     "show": "用途の最多はアートワーク。小規模な作品ほど開示率が高い。"
+     "say": "ただし、製造の細かい制約までは考えきれず、何度か作り直しが必要でした。",
+     "show": "ただし製造上の制約に対応しきれず、複数回の改訂が必要に。"
     }
    ],
    "link": {
-    "url": "https://dexerto.com/gaming/almost-half-of-all-new-steam-games-use-ai-now-3423933",
-    "title": "Almost half of all new Steam games use AI now",
-    "site": "Dexerto",
-    "description": "Almost half of all games released on Steam in October 2026 disclosed the use of AI-generated content, according to a new analysis of more than 63,000 games released on the platform since January 2024.",
-    "image": "https://www.dexerto.com/cdn-image/wp-content/uploads/2026/05/15/steam-lets-player-pick-any-game.jpg",
+    "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+    "title": "Accelerating engineering for the physical world",
+    "site": "OpenAI",
+    "description": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+    "image": "https://images.ctfassets.net/kftzwdyauwt9/3NAeFNOstkEE0aSxayt8NT/cedb470d8c0bcd7e6a2ca828c1db136c/accelerating-engineering-physical-world-social.png?w=1600&h=900&fit=fill",
     "icon": null
    }
   },
   {
-   "label": "itch.io、「No AI」フィルターを拡大",
+   "label": "Anthropic、FlashProveを公開",
    "points": [
-    "検索に「No AI」チェックボックス",
-    "ゲームページ作成数が2か月で2倍",
-    "低品質なAIコンテンツは規約で禁止"
+    "どのモデルの応答かを暗号で証明",
+    "重みを明かさずに検証できる",
+    "研究段階、コードはオープンソース"
    ],
    "details": [
-    "開発者は公開時に生成AIの使用を開示します。Steamと違い、どこにどう使ったかを説明する欄はまだありません。",
-    "ただし、ダウンロードや購入はそれほど増えていないとのことです。",
-    "itch.ioは、数テラバイト分の低品質なAIコンテンツをストアから削除したと公表しています。"
+    "zkSNARKという暗号証明を使います。証明は1リクエスト約19MBで、CPUで約20秒で検証できます。",
+    "検証に必要なのは、重みのコミットメント、プロンプト、応答だけです。",
+    "証明器や検証器をApache 2.0で公開。文脈長は1,024トークンまでなどの制限があります。"
    ],
-   "url": "https://powerupgaming.co.uk/2026/11/05/itch-io-expands-its-no-ai-filters-as-generative-ai-games-continue-to-flood-the-platform/",
+   "url": "https://www.anthropic.com/research/provable-inference",
    "lines": [
     {
-     "say": "続いて、インディーゲームの配信サイト、イッチアイオーです。",
-     "show": "続いて、インディーゲームの配信サイトitch.io。"
+     "say": "続いて、アンソロピックです。",
+     "show": "続いてAnthropic。"
     },
     {
-     "say": "検索ページに、ノーエーアイのチェックボックスが加わり、生成AIを使ったゲームを隠せるようになりました。",
-     "show": "検索に「No AI」チェックが加わり、生成AIを使ったゲームを隠せるように。"
+     "say": "AIの応答が、本当に名乗ったモデルから出たものかを、暗号で証明する仕組み、フラッシュプルーブを公開しました。",
+     "show": "AIの応答が本当にそのモデルから出たかを暗号で証明する「FlashProve」を公開。"
     },
     {
-     "say": "一日に作られるゲームページの数は、この二か月で二倍に増えたそうです。",
-     "show": "1日のゲームページ作成数は、この2か月で2倍に。"
+     "say": "モデルの重みを明かさずに、誰でも検証できるのが特徴です。",
+     "show": "モデルの重みを明かさずに、誰でも検証できる。"
+    },
+    {
+     "say": "まだ研究段階で、コードはオープンソースで公開されています。",
+     "show": "まだ研究段階。コードはオープンソースで公開。"
     }
    ],
    "link": {
-    "url": "https://powerupgaming.co.uk/2026/11/05/itch-io-expands-its-no-ai-filters-as-generative-ai-games-continue-to-flood-the-platform/",
-    "title": "itch.io Expands Its ‘No AI’ Filters as Generative AI Games Continue to Flood the Platform",
-    "site": "Power Up Gaming",
-    "description": "Indie game marketplace itch.io has expanded its AI disclosure filtering options, giving players more control over the games they discover on the platform.",
-    "image": "https://powerupgaming.co.uk/wp-content/uploads/Screenshot-2026-11-05-at-10.00.35.png",
+    "url": "https://www.anthropic.com/research/provable-inference",
+    "title": "Progress on provable inference for large language models",
+    "site": "Anthropic",
+    "description": "Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference.",
+    "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg",
     "icon": null
    }
   },
   {
-   "label": "Epic AI MegaJam、AI必須を撤回",
+   "label": "Siri AI、すべての開発者に開放",
    "points": [
-    "11月12日〜15日に開催",
-    "AIの使用は「必須」から「自由」へ",
-    "3部門の優勝に各7,500ドル"
+    "iOS 27.3などのベータで提供",
+    "App Intentsでアプリと連携",
+    "日本語にも対応"
    ],
    "details": [
-    "テーマは11月11日に発表。一部の参加者はサンフランシスコの会場で制作し、毎日配信もあります。",
-    "当初のFAQは「AIの使用が必須」。EpicはX上で「こちらのミス」として訂正しました。",
-    "2位・3位や「ベストチーム」などの賞のほか、チームごとに最大5万ドルの開発継続助成もあります。"
+    "iPadOS・macOS・visionOSの27.3ベータも対象。一般ユーザーへの提供は数か月以内の予定です。",
+    "複数の操作をまとめた「スキル」も教えられます。App Storeへの提出受付は春からの予定。",
+    "英語、フランス語、韓国語、ポルトガル語、スペイン語にも対応しています。"
    ],
-   "url": "https://www.pcgamer.com/software/ai/epic-announces-game-jam-where-you-have-to-use-ai/",
+   "url": "https://developer.apple.com/news/?id=gdk2umrf",
    "lines": [
     {
-     "say": "最後は、アンリアルエンジンのエピックゲームズです。",
-     "show": "最後は、Unreal EngineのEpic Games。"
+     "say": "最後はアップルです。",
+     "show": "最後はApple。"
     },
     {
-     "say": "十一月十二日から十五日まで、ゲームジャム、エピック、エーアイメガジャムを開きます。",
-     "show": "11月12〜15日に、ゲームジャム「Epic AI MegaJam」を開催。"
+     "say": "新しいシリ、シリエーアイに、どの開発者でも、アプリをつなげられるようになりました。",
+     "show": "新しいSiri「Siri AI」に、どの開発者もアプリをつなげられるように。"
     },
     {
-     "say": "当初はAIの使用が必須とされていましたが、使う量は自由だと訂正しました。",
-     "show": "当初はAI必須とされたが、使う量は自由と訂正。"
+     "say": "アイオーエス二十七てん三などのベータから、アップインテンツを使って連携します。",
+     "show": "iOS 27.3などのベータから、App Intentsで連携。"
     },
     {
-     "say": "テーマは十一日に発表されます。",
-     "show": "テーマは11月11日に発表。"
+     "say": "日本語にも対応していて、一般の人に届くのは、数か月以内の予定です。",
+     "show": "日本語にも対応。一般向けの提供は数か月以内の予定。"
     }
    ],
    "link": {
-    "url": "https://www.pcgamer.com/software/ai/epic-announces-game-jam-where-you-have-to-use-ai/",
-    "title": "Epic announces game jam where you have to use AI, then walks back the requirement",
-    "site": "PC Gamer",
-    "description": "The Unreal Engine and Fortnite company has extended the public a many-fingered invitation.",
-    "image": "https://cdn.mos.cms.futurecdn.net/kcoLy3wUGtqe8Xvfo3fa5U-1990-80.jpg",
+    "url": "https://developer.apple.com/news/?id=gdk2umrf",
+    "title": "Siri AI is now open to all developers",
+    "site": "Apple Developer",
+    "description": "Starting today with the iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3 betas, a new Developer Preview enables any developer to integrate their app with Siri AI.",
+    "image": "https://developer.apple.com/news/images/og/siri-ai-dark-og.jpg",
     "icon": null
    }
   }
  ],
  "closing": [
   {
-   "say": "今日の注目は、スチーム新作のほぼ半数が、AIの使用を開示、というニュースでした。",
-   "show": "今日の注目は、Steam新作のほぼ半数がAI使用を開示。"
+   "say": "今日の注目は、AIが一週間で、ハードウェアを設計した、というニュースでした。",
+   "show": "今日の注目は、AIが1週間でハードウェアを設計。"
   },
   {
    "say": "以上、つくるラジオでした。また明日。",
@@ -142,7 +146,7 @@
   }
  ],
  "highlight": 0,
- "seconds": 78.6,
+ "seconds": 78.71,
  "lines_timed": [
   {
    "start": 0.6,
@@ -152,85 +156,91 @@
   },
   {
    "start": 5.661,
-   "end": 10.194,
-   "show": "今日が初回の放送。ゲームとAIのニュースを3本お届けします。",
+   "end": 9.821,
+   "show": "今日が初回の放送。AIのニュースを3本お届けします。",
    "part": 0
   },
   {
-   "start": 11.244,
-   "end": 12.812,
-   "show": "まずはSteamの話題です。",
+   "start": 10.871,
+   "end": 12.321,
+   "show": "まずはOpenAI。",
    "part": 1
   },
   {
-   "start": 13.062,
-   "end": 19.995,
-   "show": "10月のSteam新作の49.9%が、生成AIの使用を開示。",
+   "start": 12.571,
+   "end": 19.558,
+   "show": "GPT-6 Astraが、Codexと会話できるデバイスを1週間足らずで設計。",
    "part": 1
   },
   {
-   "start": 20.245,
-   "end": 25.269,
-   "show": "Redditユーザーが、6万本超の公開データを分析。",
+   "start": 19.808,
+   "end": 23.883,
+   "show": "筐体から基板、ファームウェアまでAIが担当。",
    "part": 1
   },
   {
-   "start": 25.519,
-   "end": 32.346,
-   "show": "用途の最多はアートワーク。小規模な作品ほど開示率が高い。",
+   "start": 24.133,
+   "end": 30.042,
+   "show": "ただし製造上の制約に対応しきれず、複数回の改訂が必要に。",
    "part": 1
   },
   {
-   "start": 33.396,
-   "end": 37.183,
-   "show": "続いて、インディーゲームの配信サイトitch.io。",
+   "start": 31.092,
+   "end": 32.991,
+   "show": "続いてAnthropic。",
    "part": 2
   },
   {
-   "start": 37.433,
-   "end": 44.163,
-   "show": "検索に「No AI」チェックが加わり、生成AIを使ったゲームを隠せるように。",
+   "start": 33.241,
+   "end": 40.825,
+   "show": "AIの応答が本当にそのモデルから出たかを暗号で証明する「FlashProve」を公開。",
    "part": 2
   },
   {
-   "start": 44.413,
-   "end": 49.181,
-   "show": "1日のゲームページ作成数は、この2か月で2倍に。",
+   "start": 41.075,
+   "end": 45.128,
+   "show": "モデルの重みを明かさずに、誰でも検証できる。",
    "part": 2
   },
   {
-   "start": 50.231,
-   "end": 53.165,
-   "show": "最後は、Unreal EngineのEpic Games。",
+   "start": 45.378,
+   "end": 49.346,
+   "show": "まだ研究段階。コードはオープンソースで公開。",
+   "part": 2
+  },
+  {
+   "start": 50.396,
+   "end": 51.591,
+   "show": "最後はApple。",
    "part": 3
   },
   {
-   "start": 53.415,
-   "end": 59.633,
-   "show": "11月12〜15日に、ゲームジャム「Epic AI MegaJam」を開催。",
+   "start": 51.841,
+   "end": 57.579,
+   "show": "新しいSiri「Siri AI」に、どの開発者もアプリをつなげられるように。",
    "part": 3
   },
   {
-   "start": 59.883,
-   "end": 65.025,
-   "show": "当初はAI必須とされたが、使う量は自由と訂正。",
+   "start": 57.829,
+   "end": 62.651,
+   "show": "iOS 27.3などのベータから、App Intentsで連携。",
    "part": 3
   },
   {
-   "start": 65.275,
-   "end": 67.472,
-   "show": "テーマは11月11日に発表。",
+   "start": 62.901,
+   "end": 68.117,
+   "show": "日本語にも対応。一般向けの提供は数か月以内の予定。",
    "part": 3
   },
   {
-   "start": 68.522,
-   "end": 74.783,
-   "show": "今日の注目は、Steam新作のほぼ半数がAI使用を開示。",
+   "start": 69.167,
+   "end": 74.895,
+   "show": "今日の注目は、AIが1週間でハードウェアを設計。",
    "part": 4
   },
   {
-   "start": 75.033,
-   "end": 77.796,
+   "start": 75.145,
+   "end": 77.907,
    "show": "以上、つくるラジオでした。また明日。",
    "part": 4
   }
@@ -240,32 +250,32 @@
    "kind": "opening",
    "index": null,
    "start": 0.6,
-   "end": 11.244
+   "end": 10.871
   },
   {
    "kind": "news",
    "index": 0,
-   "start": 11.244,
-   "end": 33.396
+   "start": 10.871,
+   "end": 31.092
   },
   {
    "kind": "news",
    "index": 1,
-   "start": 33.396,
-   "end": 50.231
+   "start": 31.092,
+   "end": 50.396
   },
   {
    "kind": "news",
    "index": 2,
-   "start": 50.231,
-   "end": 68.522
+   "start": 50.396,
+   "end": 69.167
   },
   {
    "kind": "closing",
    "index": null,
-   "start": 68.522,
-   "end": 77.796
+   "start": 69.167,
+   "end": 77.907
   }
  ],
- "made_at": "2026-11-05T23:17:12"
+ "made_at": "2026-11-05T23:23:19"
 }
